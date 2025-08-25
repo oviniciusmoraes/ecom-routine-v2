@@ -1,225 +1,73 @@
-# E-commerce Routine - Versão Melhorada
+# Welcome to your Lovable project
 
-Sistema completo de gestão de rotinas para marketplaces com backend e frontend integrados.
+## Project info
 
-## 🚀 Principais Melhorias Implementadas
+**URL**: https://lovable.dev/projects/e0482d42-9fa0-4444-bcf6-00db026f0c33
 
-### Backend (Flask + SQLAlchemy)
-- ✅ **API REST completa** com endpoints para autenticação, marketplaces, rotinas e tarefas
-- ✅ **Sistema de autenticação JWT** com login/logout seguro
-- ✅ **Banco de dados SQLite** com modelos bem estruturados
-- ✅ **CORS configurado** para integração frontend-backend
-- ✅ **Validação de dados** e tratamento de erros
-- ✅ **Dados de exemplo** pré-carregados para teste
+## How can I edit this code?
 
-### Frontend (React + TypeScript + Vite)
-- ✅ **Sistema de autenticação completo** com rotas protegidas
-- ✅ **Gerenciamento de estado global** com Zustand
-- ✅ **Validação de formulários** com React Hook Form + Zod
-- ✅ **Sistema de notificações** melhorado com toast personalizados
-- ✅ **Componentes de UI aprimorados** (loading, confirmação, estado vazio)
-- ✅ **Lazy loading** para otimização de performance
-- ✅ **Interceptor de API** com tratamento automático de erros
-- ✅ **Cache inteligente** com React Query
+There are several ways of editing your application.
 
-### UX/UI Melhorias
-- ✅ **Feedback visual** em todas as ações
-- ✅ **Estados de loading** e erro bem definidos
-- ✅ **Animações e transições** suaves
-- ✅ **Design responsivo** otimizado
-- ✅ **Acessibilidade** melhorada
+**Use Lovable**
 
-## 📁 Estrutura do Projeto
+Simply visit the [Lovable Project](https://lovable.dev/projects/e0482d42-9fa0-4444-bcf6-00db026f0c33) and start prompting.
 
-```
-ecom-routine-improved/
-├── ecom-routine-backend/          # Backend Flask
-│   ├── src/
-│   │   ├── models/               # Modelos de dados
-│   │   ├── routes/               # Rotas da API
-│   │   ├── simple_main.py        # Servidor principal
-│   │   └── database/             # Banco de dados
-│   ├── venv/                     # Ambiente virtual Python
-│   └── requirements.txt          # Dependências Python
-│
-└── ecom-routine-frontend/         # Frontend React
-    ├── src/
-    │   ├── components/           # Componentes React
-    │   ├── pages/               # Páginas da aplicação
-    │   ├── store/               # Gerenciamento de estado
-    │   ├── hooks/               # Hooks personalizados
-    │   ├── lib/                 # Utilitários e API
-    │   └── App.tsx              # Componente principal
-    ├── package.json             # Dependências Node.js
-    └── vite.config.ts           # Configuração do Vite
+Changes made via Lovable will be committed automatically to this repo.
+
+**Use your preferred IDE**
+
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
 ```
 
-## 🛠️ Instalação e Execução
+**Edit a file directly in GitHub**
 
-### Pré-requisitos
-- Python 3.11+
-- Node.js 20+
-- npm ou yarn
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-### Backend (Flask)
+**Use GitHub Codespaces**
 
-1. **Navegue para o diretório do backend:**
-   ```bash
-   cd ecom-routine-improved/ecom-routine-backend
-   ```
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-2. **Ative o ambiente virtual:**
-   ```bash
-   source venv/bin/activate  # Linux/Mac
-   # ou
-   venv\Scripts\activate     # Windows
-   ```
+## What technologies are used for this project?
 
-3. **Instale as dependências:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+This project is built with:
 
-4. **Execute o servidor:**
-   ```bash
-   python src/simple_main.py
-   ```
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-   O backend estará disponível em: `http://localhost:5000`
+## How can I deploy this project?
 
-### Frontend (React)
+Simply open [Lovable](https://lovable.dev/projects/e0482d42-9fa0-4444-bcf6-00db026f0c33) and click on Share -> Publish.
 
-1. **Navegue para o diretório do frontend:**
-   ```bash
-   cd ecom-routine-improved/ecom-routine-frontend
-   ```
+## Can I connect a custom domain to my Lovable project?
 
-2. **Instale as dependências:**
-   ```bash
-   npm install
-   ```
+Yes, you can!
 
-3. **Execute o servidor de desenvolvimento:**
-   ```bash
-   npm run dev
-   ```
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-   O frontend estará disponível em: `http://localhost:8080`
-
-## 🔐 Credenciais de Teste
-
-O sistema vem com usuários pré-cadastrados para teste:
-
-### Administrador
-- **Usuário:** `admin`
-- **Senha:** `admin123`
-
-### Usuário Regular
-- **Usuário:** `joao`
-- **Senha:** `123456`
-
-## 📊 Dados de Exemplo
-
-O sistema inclui marketplaces de exemplo:
-- **Mercado Livre Matriz** - Conta principal com prioridade alta
-- **Shopee Filial** - Conta filial com prioridade média  
-- **Amazon Brasil** - Marketplace premium com prioridade alta
-
-## 🔧 Tecnologias Utilizadas
-
-### Backend
-- **Flask** - Framework web Python
-- **SQLAlchemy** - ORM para banco de dados
-- **Flask-CORS** - Suporte a CORS
-- **PyJWT** - Autenticação JWT
-- **Werkzeug** - Utilitários de segurança
-
-### Frontend
-- **React 18** - Biblioteca de interface
-- **TypeScript** - Tipagem estática
-- **Vite** - Build tool moderna
-- **Tailwind CSS** - Framework CSS
-- **shadcn/ui** - Componentes de UI
-- **Zustand** - Gerenciamento de estado
-- **React Hook Form** - Formulários
-- **Zod** - Validação de esquemas
-- **React Query** - Cache e sincronização
-- **Axios** - Cliente HTTP
-- **Lucide React** - Ícones
-
-## 🚀 Funcionalidades Principais
-
-### Autenticação
-- Login/logout seguro com JWT
-- Rotas protegidas
-- Persistência de sessão
-- Validação de credenciais
-
-### Dashboard
-- Visão geral das atividades
-- Métricas em tempo real
-- Tarefas pendentes e concluídas
-- Performance da equipe
-
-### Marketplaces
-- CRUD completo de marketplaces
-- Filtros e busca avançada
-- Favoritos e prioridades
-- Gestão de URLs e horários
-
-### Rotinas
-- Criação de rotinas automatizadas
-- Periodicidade configurável
-- Associação com marketplaces
-- Histórico de execuções
-
-### Tarefas
-- Gestão de tarefas diárias
-- Status e prioridades
-- Atribuição de responsáveis
-- Relatórios de progresso
-
-## 🔄 Próximos Passos Sugeridos
-
-1. **Integrações com APIs** dos marketplaces reais
-2. **Sistema de notificações** em tempo real (WebSocket)
-3. **Relatórios avançados** com gráficos e métricas
-4. **Módulo de automação** para tarefas repetitivas
-5. **App mobile** para gestão em movimento
-6. **Sistema de backup** automático
-7. **Integração com calendários** externos
-8. **Módulo de equipe** com permissões granulares
-
-## 📝 Notas de Desenvolvimento
-
-- O backend usa SQLite para simplicidade, mas pode ser facilmente migrado para PostgreSQL ou MySQL
-- O frontend está configurado com proxy para desenvolvimento, mas em produção deve usar variáveis de ambiente
-- Todos os componentes seguem as melhores práticas de React e TypeScript
-- O sistema está preparado para escalabilidade horizontal
-
-## 🐛 Solução de Problemas
-
-### Backend não inicia
-- Verifique se o Python 3.11+ está instalado
-- Certifique-se de que o ambiente virtual está ativado
-- Instale as dependências com `pip install -r requirements.txt`
-
-### Frontend não carrega
-- Verifique se o Node.js 20+ está instalado
-- Execute `npm install` para instalar dependências
-- Certifique-se de que o backend está rodando na porta 5000
-
-### Erro de CORS
-- Verifique se o backend está configurado com CORS habilitado
-- Confirme que o proxy no Vite está apontando para a porta correta
-
-## 📞 Suporte
-
-Para dúvidas ou problemas, consulte a documentação dos componentes ou entre em contato com a equipe de desenvolvimento.
-
----
-
-**Versão:** 2.0.0  
-**Data:** Agosto 2025  
-**Desenvolvido com:** ❤️ e muito ☕
-
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
